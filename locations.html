@@ -145,7 +145,7 @@
           console.log('found locations')
         } else {
           const response = await fetch(
-            'https://dontriskit.github.io/facebook-pages-url-builder/data/google_locations.txt',
+            'https://github.com/dontriskit/dontriskit.github.io/blob/main/data/google_locations.txt',
           )
           const data = await response.text()
           await localforage.setItem('locations', data)
