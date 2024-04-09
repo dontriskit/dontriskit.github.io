@@ -327,7 +327,7 @@
           locations = foundLocations.split(/\n/gim)
         } else {
           const response = await fetch(
-            'https://gahabeen.github.io/facebook-pages-search-inputs/data/google_locations.txt',
+            'https://raw.githubusercontent.com/dontriskit/dontriskit.github.io/main/facebook-pages-url-builder/data/google_locations.txt',
           )
           const data = await response.text()
           await localforage.setItem('locations', data)
