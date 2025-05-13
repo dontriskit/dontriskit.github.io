@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White - Crystal Clear Context for AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styling can be added here or in a separate CSS file if needed */
+        /* For example, to match the pitch deck's feel, you might adjust fonts or specific colors */
+        body {
+            font-family: 'Inter', sans-serif; /* A common modern sans-serif font */
+        }
+        /* Hero section gradient example (optional) */
+        .hero-gradient {
+            background: linear-gradient(to bottom, #f3f4f6, #e5e7eb); /* Light gray gradient */
+        }
+        .highlight-green { color: #10B981; } /* Tailwind's emerald-500 */
+        .bg-highlight-green { background-color: #10B981; }
+        .hover-bg-highlight-green-darker:hover { background-color: #059669; } /* Tailwind's emerald-600 */
+        .highlight-blue { color: #3B82F6; } /* Tailwind's blue-500 */
+    </style>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-3xl font-bold text-gray-900">WHITE<span class="highlight-green">.</span></a>
+                </div>
+                <nav class="hidden md:flex space-x-10 items-center">
+                    <a href="#problem" class="text-gray-600 hover:text-gray-900 font-medium">The Problem</a>
+                    <a href="#solution" class="text-gray-600 hover:text-gray-900 font-medium">Our Solution</a>
+                    <a href="#product" class="text-gray-600 hover:text-gray-900 font-medium">Product</a>
+                    <a href="#invest" class="text-gray-600 hover:text-gray-900 font-medium">Invest</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 font-medium">Contact</a>
+                    <a href="#early-access-form" class="px-6 py-2.5 border border-transparent text-sm font-semibold rounded-lg text-white bg-highlight-green hover-bg-highlight-green-darker transition-colors">
+                        Get Early Access
+                    </a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" type="button" class="text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#problem" class="text-gray-700 hover:bg-gray-100 block px-3 py-2 rounded-md text-base font-medium">The Problem</a>
+                <a href="#solution" class="text-gray-700 hover:bg-gray-100 block px-3 py-2 rounded-md text-base font-medium">Our Solution</a>
+                <a href="#product" class="text-gray-700 hover:bg-gray-100 block px-3 py-2 rounded-md text-base font-medium">Product</a>
+                <a href="#invest" class="text-gray-700 hover:bg-gray-100 block px-3 py-2 rounded-md text-base font-medium">Invest</a>
+                <a href="#contact" class="text-gray-700 hover:bg-gray-100 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                <a href="#early-access-form" class="block w-full text-center mt-2 px-6 py-2.5 border border-transparent text-sm font-semibold rounded-lg text-white bg-highlight-green hover-bg-highlight-green-darker transition-colors">
+                    Get Early Access
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-gradient py-24 sm:py-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900">
+                    The Internet, Distilled.
+                    <span class="block highlight-green">Crystal Clear Context for AI.</span>
+                </h1>
+                <p class="mt-8 max-w-2xl mx-auto text-xl text-gray-700">
+                    White is building the World's #1 <strong class="font-semibold">Context Bank</strong>. We visually mine the web, transpile noise into signal, and deliver ultra-dense, AI-ready <code class="bg-gray-200 px-1.5 py-0.5 rounded text-lg font-mono">context</code> files.
+                </p>
+                <div class="mt-12 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+                    <a href="#early-access-form" class="w-full sm:w-auto px-10 py-4 border border-transparent text-lg font-semibold rounded-lg shadow-md text-white bg-highlight-green hover-bg-highlight-green-darker transition-transform transform hover:scale-105">
+                        Request Early Access
+                    </a>
+                    <a href="#invest" class="w-full sm:w-auto text-lg font-semibold text-emerald-600 hover:text-emerald-500 transition-colors">
+                        Investor Information →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem" class="bg-white py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold text-red-600 tracking-wide uppercase">The Challenge</h2>
+                    <p class="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl">
+                        The Web: A Labyrinth of Irrelevant Data.
+                    </p>
+                </div>
+                <div class="mt-12 lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                    <div class="prose prose-lg text-gray-600">
+                        <p>Today's internet is <strong class="font-semibold">complicated, unreadable, chaotic, and time-consuming.</strong> AI models and human analysts alike are drowning in a sea of information, yet starved for genuine, actionable context.</p>
+                        <ul class="list-disc pl-5 space-y-2 mt-4">
+                            <li><strong class="font-semibold">Too much content</strong> for humans to sift through efficiently.</li>
+                            <li><strong class="font-semibold">Too much unstructured vision and audio</strong> for machines to interpret economically.</li>
+                            <li>Valuable insights are buried, leading to <strong class="font-semibold">wasted resources, suboptimal AI performance, and missed opportunities.</strong></li>
+                        </ul>
+                        <p class="mt-4">This "information obesity" hinders innovation and drives up the cost of intelligence.</p>
+                    </div>
+                    <div class="mt-10 lg:mt-0" aria-hidden="true">
+                        <div class="bg-gray-200 h-80 rounded-xl shadow-xl flex items-center justify-center p-8">
+                            <!-- Placeholder for a visual representation of chaos vs clarity -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 60" class="w-full h-auto text-gray-400">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 55S15 5 30 30s15 25 30 0 15-25 30 0M5 50S15 0 30 25s15 25 30 0 15-25 30 0M5 45S15-5 30 20s15 25 30 0 15-25 30 0" opacity="0.3"/>
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 30h80" class="text-emerald-500"/>
+                                <circle cx="10" cy="30" r="3" fill="currentColor" class="text-emerald-500"/>
+                                <circle cx="90" cy="30" r="3" fill="currentColor" class="text-emerald-500"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section id="solution" class="bg-gray-100 py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold text-emerald-600 tracking-wide uppercase">Our Solution</h2>
+                    <p class="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl">
+                        White: Engineering Clarity.
+                    </p>
+                    <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-700">
+                        We solve the problem of "irrelevant and unnecessary" information by <strong class="font-semibold">losslessly creating <code class="bg-gray-300 px-1.5 py-0.5 rounded text-lg font-mono">con[text]</code></strong>.
+                        Our proprietary <strong class="font-semibold">Visual Miners</strong> and advanced AI pipeline transform the chaotic web into a structured, queryable <strong class="font-semibold">Context Bank</strong>.
+                    </p>
+                </div>
+
+                <div class="mt-16 grid md:grid-cols-3 gap-x-8 gap-y-12">
+                    <div class="text-center p-8 bg-white rounded-xl shadow-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-emerald-100 text-emerald-700 mx-auto mb-6">
+                            <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900">Vision-First Context Mining</h3>
+                        <p class="mt-3 text-base text-gray-600">
+                            Our "Vision Agents" see and process web data (images, screen structures, layouts, text) like humans do, capturing unparalleled depth and relational understanding.
+                        </p>
+                    </div>
+                    <div class="text-center p-8 bg-white rounded-xl shadow-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-sky-100 text-sky-700 mx-auto mb-6">
+                           <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path><ellipse cx="12" cy="7" rx="8" ry="4"></ellipse></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900">The Context Bank</h3>
+                        <p class="mt-3 text-base text-gray-600">
+                            An extensive, interconnected database of websites, companies, and technologies, all meticulously vectorized and optimized for AI consumption.
+                        </p>
+                    </div>
+                    <div class="text-center p-8 bg-white rounded-xl shadow-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-emerald-100 text-emerald-700 mx-auto mb-6">
+                            <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900">Radical Efficiency</h3>
+                        <p class="mt-3 text-base text-gray-600">
+                           The "LED moment" for AI data. Our process enables up to <strong class="font-semibold">98% reduction in inference costs</strong> for downstream AI tasks by providing pre-digested, highly relevant context.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Section: context -->
+        <section id="product" class="bg-white py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold text-sky-600 tracking-wide uppercase">Our Core Deliverable</h2>
+                    <p class="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl">
+                        <code>context</code>: The Essence of the Web.
+                    </p>
+                    <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-700">
+                        Each <code class="bg-gray-200 px-1.5 py-0.5 rounded text-lg font-mono">context</code> file is a token-efficient, plain-text representation of a website's core information. It's the ultimate distillation, ready for immediate integration with any LLM or VLM.
+                    </p>
+                </div>
+
+                <div class="mt-16 bg-gray-800 text-white p-8 rounded-xl shadow-2xl">
+                    <h3 class="text-2xl font-semibold text-center mb-6 text-emerald-400">How <code>context</code> is Created:</h3>
+                    <div class="grid md:grid-cols-4 gap-6 text-center text-sm">
+                        <div>
+                            <div class="bg-gray-700 p-4 rounded-lg h-full flex flex-col justify-center">
+                                <p class="text-lg font-medium">1. Map & Discover</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-gray-700 p-4 rounded-lg h-full flex flex-col justify-center">
+                                <p class="text-lg font-medium">2. Visual Capture</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-gray-700 p-4 rounded-lg h-full flex flex-col justify-center">
+                                <p class="text-lg font-medium">3. Interpret & Describe</p>
+                            </div>
+                        </div>
+                         <div>
+                            <div class="bg-gray-700 p-4 rounded-lg h-full flex flex-col justify-center">
+                                <p class="text-lg font-medium">4. Synthesize & Structure</p>
+                                <p class="text-gray-300 mt-1">(Output: <code class="font-mono">context</code> to Context Bank)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <a href="#early-access-form" class="px-8 py-3 border border-transparent text-base font-semibold rounded-lg shadow-sm text-gray-900 bg-emerald-400 hover:bg-emerald-300 transition-colors">
+                            Get Your <code>context</code>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-16">
+                    <h3 class="text-2xl font-bold text-gray-900 text-center mb-8">Unlock Powerful Use Cases:</h3>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="bg-emerald-50 p-6 rounded-lg shadow">
+                            <h4 class="text-xl font-semibold text-emerald-700">B2B Sales & Marketing</h4>
+                            <p class="mt-2 text-gray-600">Hyper-personalize outreach, generate targeted lead lists, and deeply understand prospect needs.</p>
+                        </div>
+                        <div class="bg-sky-50 p-6 rounded-lg shadow">
+                            <h4 class="text-xl font-semibold text-sky-700">Advanced SEO & Content</h4>
+                            <p class="mt-2 text-gray-600">Create deeply insightful, contextually rich content that ranks and engages.</p>
+                        </div>
+                        <div class="bg-purple-50 p-6 rounded-lg shadow">
+                            <h4 class="text-xl font-semibold text-purple-700">AI Model Fine-Tuning</h4>
+                            <p class="mt-2 text-gray-600">Pre-process vast amounts of web data into efficient tokens for training and RAG.</p>
+                        </div>
+                         <div class="bg-yellow-50 p-6 rounded-lg shadow">
+                            <h4 class="text-xl font-semibold text-yellow-700">Market & Competitive Analysis</h4>
+                            <p class="mt-2 text-gray-600">Rapidly analyze industry trends, competitor strategies, and market positioning.</p>
+                        </div>
+                        <div class="bg-pink-50 p-6 rounded-lg shadow">
+                            <h4 class="text-xl font-semibold text-pink-700">Data for Simulations</h4>
+                            <p class="mt-2 text-gray-600">Fuel complex simulations with structured, real-world web context.</p>
+                        </div>
+                         <div class="bg-indigo-50 p-6 rounded-lg shadow">
+                            <h4 class="text-xl font-semibold text-indigo-700">Automated Audits</h4>
+                            <p class="mt-2 text-gray-600">Perform comprehensive website audits for compliance, accessibility, or content quality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Now & Why White -->
+        <section id="why-now" class="bg-gray-100 py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold text-emerald-600 tracking-wide uppercase">The White Advantage</h2>
+                    <p class="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl">
+                        Unmatched Clarity, Capability, and Cost-Effectiveness.
+                    </p>
+                </div>
+                <div class="mt-12 grid md:grid-cols-2 gap-x-8 gap-y-10">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-900">Timing is Everything (Why Now?)</h3>
+                        <p class="mt-3 text-gray-600">Recent breakthroughs in AI models inference optimization, browser automation tools, and our proprietary know-how have converged to make White's vision technologically and economically feasible today.</p>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-900">Cost Leadership</h3>
+                        <p class="mt-3 text-gray-600">Our streamlined visual mining and data processing pipeline allows us to generate comprehensive <code class="font-mono bg-gray-200 px-1 py-0.5 rounded">context</code> files at an estimated cost of <strong class="font-semibold">$0.11 per site</strong>. This offers a <strong>3x-6x cost advantage</strong> over comparable data acquisition and processing methods.</p>
+                        <div class="mt-4 p-3 bg-gray-50 rounded">
+                            <p class="text-sm text-gray-500">Example Price Per Context:</p>
+                            <ul class="text-sm">
+                                <li>Apify.com & Gemini Pro 2.5: $0.64</li>
+                                <li>Clay.com: $0.37</li>
+                                <li class="font-bold text-emerald-600">WhiteContext.com (Target Price): $0.19</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-900">Scalable & Robust Technology</h3>
+                        <p class="mt-3 text-gray-600">Our architecture is built for massive scale and reliable, auditable data processing.</p>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-900">The Future is Context</h3>
+                        <p class="mt-3 text-gray-600">We believe that raw data is not enough. The next leap in AI requires rich, structured, and easily consumable context. White is at the forefront of building this foundational layer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Investment Opportunity Section -->
+        <section id="invest" class="bg-sky-600 text-white py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl font-extrabold tracking-tight sm:text-5xl">
+                    Invest in the Future of AI Understanding.
+                </h2>
+                <p class="mt-6 max-w-3xl mx-auto text-xl text-sky-100">
+                    White is poised to become the indispensable "Intel Inside" for context-aware AI.
+                </p>
+                <div class="mt-12">
+                    <a href="mailto:wladek.kastory@gmail.com?subject=Investment%20Inquiry%20-%20WhiteContext" class="px-10 py-4 border-2 border-white text-lg font-semibold rounded-lg shadow-md text-white hover:bg-white hover:text-sky-600 transition-colors transform hover:scale-105">
+                        Partner With Us →
+                    </a>
+                    <!-- <p class="mt-4 text-sky-200 text-sm">
+                        (Full Pitch Deck available upon request)
+                    </p> -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Vision Section -->
+        <section id="vision-detail" class="bg-white py-16 sm:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <p class="mt-2 text-4xl font-extrabold text-gray-900 sm:text-5xl">
+                    truly democratized and accessible knowledge
+                </p>
+            </div>
+        </section>
+
+        <!-- Early Access Form Section -->
+        <!-- <section id="early-access-form" class="bg-emerald-50 py-16 sm:py-20">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-extrabold text-gray-900 text-center">Request Early Access to <code class="bg-emerald-200 px-1.5 py-0.5 rounded text-2xl font-mono">context</code></h2>
+                <p class="mt-4 text-lg text-gray-700 text-center">Be among the first to leverage the power of distilled web intelligence. Tell us about your use case and join our pilot program.</p>
+                <form id="earlyAccessFormActual" class="mt-8 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                    <div>
+                        <label for="first-name" class="block text-sm font-medium text-gray-700">First name <span class="text-red-500">*</span></label>
+                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" required class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md focus:ring-emerald-500 focus:border-emerald-500 py-2.5 px-3.5">
+                    </div>
+                    <div>
+                        <label for="last-name" class="block text-sm font-medium text-gray-700">Last name <span class="text-red-500">*</span></label>
+                        <input type="text" name="last-name" id="last-name" autocomplete="family-name" required class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md focus:ring-emerald-500 focus:border-emerald-500 py-2.5 px-3.5">
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email <span class="text-red-500">*</span></label>
+                        <input id="email" name="email" type="email" autocomplete="email" required class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md focus:ring-emerald-500 focus:border-emerald-500 py-2.5 px-3.5">
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="company" class="block text-sm font-medium text-gray-700">Company / Organization</label>
+                        <input type="text" name="company" id="company" autocomplete="organization" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md focus:ring-emerald-500 focus:border-emerald-500 py-2.5 px-3.5">
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="use-case" class="block text-sm font-medium text-gray-700">Primary Use Case</label>
+                        <select id="use-case" name="use-case" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md focus:ring-emerald-500 focus:border-emerald-500 py-2.5 px-3.5">
+                            <option>Select an option</option>
+                            <option>B2B Sales/Marketing Intelligence</option>
+                            <option>SEO & Content Generation</option>
+                            <option>AI Model Data Preparation (Fine-tuning/RAG)</option>
+                            <option>Market Research & Analysis</option>
+                            <option>Academic Research</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block text-sm font-medium text-gray-700">Tell us more (optional)</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md focus:ring-emerald-500 focus:border-emerald-500 py-2.5 px-3.5"></textarea>
+                    </div>
+                    <div class="sm:col-span-2 text-center">
+                        <button type="submit" class="inline-flex items-center justify-center px-8 py-3 border border-transparent rounded-lg shadow-sm text-base font-semibold text-white bg-highlight-green hover-bg-highlight-green-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 transition-transform transform hover:scale-105">
+                            Request Early Access
+                        </button>
+                    </div>
+                </form>
+                <div id="form-submission-message" class="mt-6 text-center text-lg"></div>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-base">
+                    © <script>document.write(new Date().getFullYear())</script> White. All Rights Reserved.
+                </p>
+                <p class="text-sm mt-2">
+                    <a href="#" class="hover:underline">Privacy Policy</a> | <a href="#" class="hover:underline">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true' || false;
+                mobileMenuButton.setAttribute('aria-expanded', !expanded);
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Form submission handling (example)
+        const earlyAccessForm = document.getElementById('earlyAccessFormActual');
+        const formSubmissionMessage = document.getElementById('form-submission-message');
+
+        if (earlyAccessForm) {
+            earlyAccessForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent default form submission
+
+                // Basic validation example (Tailwind doesn't do this automatically)
+                const emailField = document.getElementById('email');
+                if (!emailField.value || !emailField.checkValidity()) {
+                    formSubmissionMessage.textContent = 'Please enter a valid email address.';
+                    formSubmissionMessage.className = 'mt-6 text-center text-lg text-red-600';
+                    emailField.focus();
+                    return;
+                }
+                
+                // Simulate form submission
+                formSubmissionMessage.textContent = 'Thank you for your interest! We will be in touch soon.';
+                formSubmissionMessage.className = 'mt-6 text-center text-lg text-emerald-600';
+                earlyAccessForm.reset(); // Clear the form
+
+                // In a real scenario, you would send data to a server:
+                // const formData = new FormData(earlyAccessForm);
+                // fetch('/your-submission-endpoint', { method: 'POST', body: formData })
+                // .then(response => response.json())
+                // .then(data => { console.log('Success:', data); /* update message */ })
+                // .catch((error) => { console.error('Error:', error); /* update message */});
+            });
+        }
+    </script>
+</body>
+</html>
